@@ -1,10 +1,10 @@
 # cdh_alert_dingtalk
 Monitor cdh with dingtalk alert.
 
-##简介
+## 简介
 监听cdh故障事件，并发送告警信息到钉钉
 
-##使用方法
+## 使用方法
 配置config.conf文件，指定需要监控的cdh api url，并填写cdh用户。配置钉钉机器人token🤖，使用crontab启动即可。
 
 ```
